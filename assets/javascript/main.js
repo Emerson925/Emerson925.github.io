@@ -31,7 +31,7 @@ var freshBoard=function(){
 
 updateLetterToGuess();
 
-document.onkeyup=function(event){
+document.onkeyup=function(event){ 
     guessesLeft--;
     //reduce remaining guess left value by 1, decrement reduce by 1
     var currentGuess=event.key;
